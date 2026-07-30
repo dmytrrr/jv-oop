@@ -2,7 +2,7 @@ package core.basesyntax;
 
 public class MainApp {
 
-    Machine[] machines = new Machine[]{new Excavator(), new Truck(), new Bulldozer() };
+    Machine[] machines = new Machine[]{new Truck(), new Bulldozer(), new Excavator() };
 
     public void startProcess() {
         for (Machine machine : machines) {
