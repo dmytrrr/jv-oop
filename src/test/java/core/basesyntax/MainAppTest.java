@@ -6,6 +6,6 @@ public class MainAppTest extends MainApp {
 
     @Test
     public void launchTest() {
-     startProcess();
+        startProcess();
     }
 }
